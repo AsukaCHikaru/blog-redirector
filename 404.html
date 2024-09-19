@@ -12,6 +12,7 @@
 
       if (window.location.hostname === oldDomain) {
         var newUrl = 'https://' + newDomain + currentPath;
+        window.location.replace(newUrl);
       }
     }
 
