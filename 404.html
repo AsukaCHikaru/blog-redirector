@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="virwport" content="width=device-width, initial-scale=1.0">
+    <title>redirecting</title>
+    <script>
+    function redirect() {
+      var oldDomain = 'asukawang.com';
+      var newDomain = 'asukachikaru.com';
+      var currentPath = window.location.pathname;
+
+      if (window.location.hostname === oldDomain) {
+        var newUrl = 'https://' + newDomain + currentPath;
+      }
+    }
+
+    redirect();
+    </script>
+
+  </head>
+  <body>
+    
+  </body>
+</html>
